@@ -167,25 +167,28 @@ body {
 
         .mySlides:first-of-type {
             display: block;
-
-
         }
 
-        button {
-            cursor: pointer;
-            z-index: 1000;
-            padding: 5px;
-            background-color: #d2d2d2;
-            color: black;
-            border-radius: 50%;
-            border: none;
-            width: 50px;
-            height: 50px;
-            opacity: 0.5;
+        .slideshow-controls {
+            position: relative;
+            bottom: 60px;
+            left: 10px;
+            button {
+                cursor: pointer;
+                z-index: 2;
+                padding: 5px;
+                background-color: #d2d2d2;
+                color: black;
+                border-radius: 50%;
+                border: none;
+                width: 50px;
+                height: 50px;
+                opacity: 0.2;
 
-            &:hover {
-                opacity: 1;
-                transition: 0.5s ease-in;
+                &:hover {
+                    opacity: 1;
+                    transition: 0.5s ease-in;
+                }
             }
         }
     }

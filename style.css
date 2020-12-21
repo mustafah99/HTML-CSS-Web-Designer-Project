@@ -165,9 +165,15 @@ body {
   display: block;
 }
 
-.campaign-hero .techontech-slideshow-content button {
+.campaign-hero .techontech-slideshow-content .slideshow-controls {
+  position: relative;
+  bottom: 60px;
+  left: 10px;
+}
+
+.campaign-hero .techontech-slideshow-content .slideshow-controls button {
   cursor: pointer;
-  z-index: 1000;
+  z-index: 2;
   padding: 5px;
   background-color: #d2d2d2;
   color: black;
@@ -175,10 +181,10 @@ body {
   border: none;
   width: 50px;
   height: 50px;
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
-.campaign-hero .techontech-slideshow-content button:hover {
+.campaign-hero .techontech-slideshow-content .slideshow-controls button:hover {
   opacity: 1;
   -webkit-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
