@@ -190,8 +190,64 @@ body {
             border: 1px solid rgb(214, 196, 196);
             color: black;
             font-family: 'Rock Salt', cursive;
-            background-color: #f2f2f2!important;
+            background-color: #f2f2f2 !important;
             cursor: pointer;
         }
+    }
+}
+
+.products-hero {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+    padding: 20px 150px;
+    border: 1px solid rgb(214, 196, 196);
+
+    .firstImage,
+    .secondImage,
+    .thirdImage,
+    .fourthImage,
+    .fifthImage,
+    .sixthImage {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        max-width: 100%;
+        border: 1px solid rgb(214, 196, 196);
+        padding: 15px;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.01);
+                transition: 0.5s ease-in-out;
+            }
+        }
+
+        p {
+            text-align: left;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 10px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f2f2f2 !important;
+            cursor: pointer;
+        }
+        .additional-Information {
+            p {
+                text-align: left;
+                font-size: 12px;
+                color: black;
+                font-family: 'Roboto', sans-serif;
+                color: #a2a2a2;
+            }
+        }
+        
     }
 }

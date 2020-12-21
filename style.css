@@ -204,4 +204,86 @@ body {
   background-color: #f2f2f2 !important;
   cursor: pointer;
 }
+
+.products-hero {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+  padding: 20px 150px;
+  border: 1px solid #d6c4c4;
+}
+
+.products-hero .firstImage,
+.products-hero .secondImage,
+.products-hero .thirdImage,
+.products-hero .fourthImage,
+.products-hero .fifthImage,
+.products-hero .sixthImage {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 100%;
+  border: 1px solid #d6c4c4;
+  padding: 15px;
+}
+
+.products-hero .firstImage img,
+.products-hero .secondImage img,
+.products-hero .thirdImage img,
+.products-hero .fourthImage img,
+.products-hero .fifthImage img,
+.products-hero .sixthImage img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.products-hero .firstImage img:hover,
+.products-hero .secondImage img:hover,
+.products-hero .thirdImage img:hover,
+.products-hero .fourthImage img:hover,
+.products-hero .fifthImage img:hover,
+.products-hero .sixthImage img:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.products-hero .firstImage p,
+.products-hero .secondImage p,
+.products-hero .thirdImage p,
+.products-hero .fourthImage p,
+.products-hero .fifthImage p,
+.products-hero .sixthImage p {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2 !important;
+  cursor: pointer;
+}
+
+.products-hero .firstImage .additional-Information p,
+.products-hero .secondImage .additional-Information p,
+.products-hero .thirdImage .additional-Information p,
+.products-hero .fourthImage .additional-Information p,
+.products-hero .fifthImage .additional-Information p,
+.products-hero .sixthImage .additional-Information p {
+  text-align: left;
+  font-size: 12px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  color: #a2a2a2;
+}
 /*# sourceMappingURL=style.css.map */
