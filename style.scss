@@ -239,15 +239,31 @@ body {
             background-color: #f2f2f2 !important;
             cursor: pointer;
         }
+
         .additional-Information {
             p {
+                cursor: text;
                 text-align: left;
                 font-size: 12px;
+                font-weight: normal;
                 color: black;
                 font-family: 'Roboto', sans-serif;
                 color: #a2a2a2;
             }
+
+            ul {
+                padding-left: 20px;
+                li {
+                    cursor: text;
+                    text-align: left;
+                    font-size: 12px;
+                    font-weight: normal;
+                    color: black;
+                    font-family: 'Roboto', sans-serif;
+                    color: #a2a2a2;
+                }
+            }
         }
-        
+
     }
 }

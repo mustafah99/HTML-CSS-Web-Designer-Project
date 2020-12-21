@@ -280,8 +280,34 @@ body {
 .products-hero .fourthImage .additional-Information p,
 .products-hero .fifthImage .additional-Information p,
 .products-hero .sixthImage .additional-Information p {
+  cursor: text;
   text-align: left;
   font-size: 12px;
+  font-weight: normal;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  color: #a2a2a2;
+}
+
+.products-hero .firstImage .additional-Information ul,
+.products-hero .secondImage .additional-Information ul,
+.products-hero .thirdImage .additional-Information ul,
+.products-hero .fourthImage .additional-Information ul,
+.products-hero .fifthImage .additional-Information ul,
+.products-hero .sixthImage .additional-Information ul {
+  padding-left: 20px;
+}
+
+.products-hero .firstImage .additional-Information ul li,
+.products-hero .secondImage .additional-Information ul li,
+.products-hero .thirdImage .additional-Information ul li,
+.products-hero .fourthImage .additional-Information ul li,
+.products-hero .fifthImage .additional-Information ul li,
+.products-hero .sixthImage .additional-Information ul li {
+  cursor: text;
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
   color: black;
   font-family: 'Roboto', sans-serif;
   color: #a2a2a2;
