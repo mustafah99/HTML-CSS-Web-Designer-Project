@@ -153,63 +153,38 @@ body {
 .campaign-hero {
     display: grid;
     grid-auto-flow: column;
-    background-color: #f2f2f2 !important;
     grid-gap: 1.5em;
-    padding: 0 150px;
-    width: 80%;
-    padding-top: 20px;
+    padding: 20px 150px;
 
-    .techontech-slideshow-content {
+    .firstImage,
+    .secondImage,
+    .thirdImage {
+        display: grid;
+        justify-content: center;
+        align-content: center;
         max-width: 100%;
-        display: flex;
-        .mySlides {
-            max-width: 100%;
-            object-fit: cover;
-            display: none;
-            cursor: pointer;
-        }
 
-        .mySlides:first-of-type {
-            display: block;
-        }
-
-        .slideshow-controls {
-            display: flex;
-            position: absolute;
-            margin-top: 340px;
-            margin-left: 15px;
-
-            .display-right {
-                margin-left: 10px;
-            }
-            
-            
-            button {
-                cursor: pointer;
-                z-index: 2;
-                padding: 5px;
-                background-color: #d2d2d2;
-                color: black;
-                border-radius: 50%;
-                border: none;
-                width: 50px;
-                height: 50px;
-                opacity: 0.1;
-
-                &:hover {
-                    opacity: 1;
-                    transition: 0.5s ease-in-out;
-                }
-            }
-        }
-    }
-
-    .campaigns-and-offers {
         img {
-            display: block;
-            max-width: 370px;
-            object-fit: cover;
+            width: 100%;
+            object-fit: contain;
+            border: 4px;
+            border-color: black;
+            border-style: solid;
+        }
+
+        p {
+            text-align: center;
+            font-size: 25px;
+            color: white;
+            font-family: 'Pacifico';
+            background-image: linear-gradient(to bottom right, #ff0000, #000000);
+            border: 4px solid black;
             cursor: pointer;
+
+            &:hover {
+                font-size: 30px;
+                transition: 0.3s;
+            }
         }
     }
 }
