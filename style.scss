@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #f2f2f2!important;
+    background-color: #f2f2f2 !important;
 }
 
 .top-profile-bar {
@@ -126,6 +126,7 @@ body {
 
     .navbar-nav {
         padding-bottom: 8px;
+
         .links {
             a {
                 font-family: 'Roboto', sans-serif;
@@ -145,6 +146,25 @@ body {
                 }
 
             }
+        }
+    }
+}
+
+.campaign-hero {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #f2f2f2 !important;
+    grid-gap: 1.5em;
+    padding: 0 150px;
+    padding-top: 20px;
+
+    .techontech-slideshow-content {
+        .mySlides {
+            width: 70%;
+            display: none;
+        }
+        .mySlides:first-of-type {
+            display: block;
         }
     }
 }

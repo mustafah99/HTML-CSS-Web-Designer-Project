@@ -144,4 +144,23 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
+.campaign-hero {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #f2f2f2 !important;
+  grid-gap: 1.5em;
+  padding: 0 150px;
+  padding-top: 20px;
+}
+
+.campaign-hero .techontech-slideshow-content .mySlides {
+  width: 70%;
+  display: none;
+}
+
+.campaign-hero .techontech-slideshow-content .mySlides:first-of-type {
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
