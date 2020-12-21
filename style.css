@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  margin: 0;
+}
+
+.top-profile-bar {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #333;
+  grid-gap: 1.5em;
+  padding: 0 130px;
+}
+
+.top-profile-bar .container .row .column .top-profile-bar-options {
+  list-style: none;
+  margin: 5px;
+  padding: 0;
+}
+
+.top-profile-bar .container .row .column .top-profile-bar-options li {
+  display: inline;
+}
+
+.top-profile-bar .container .row .column .top-profile-bar-options li .for-companies {
+  float: right;
+  border-right: none;
+  border-left: 1px solid #c7c7c7;
+}
+
+.top-profile-bar .container .row .column .top-profile-bar-options li a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  padding: 0 15px;
+  color: #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  font-size: 13px;
+}
+
+.top-profile-bar .container .row .column .top-profile-bar-options li a i {
+  padding-right: 2px;
+}
+
+.nav {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  background-color: #d2d2d2;
+  grid-gap: 1.5em;
+  padding: 0 150px;
+}
+
+.nav .header {
+  display: -ms-grid;
+  display: grid;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav .header .logo h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav .header .logo h1 span {
+  color: red;
+}
+
+.nav .shopping-cart-and-search {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav .shopping-cart-and-search .search {
+  width: 300px;
+  padding-right: 10px;
+}
+
+.nav .shopping-cart-and-search .search input {
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}
+
+.nav .shopping-cart-and-search .shopping-cart-buttons button {
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav .shopping-cart-and-search .shopping-cart-buttons .shopping-cart {
+  border-radius: 5px;
+  border: none;
+  margin-right: 4px;
+}
+
+.nav .shopping-cart-and-search .shopping-cart-buttons .checkout {
+  background-color: #6b99c1;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
