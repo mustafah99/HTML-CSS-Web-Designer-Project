@@ -172,29 +172,15 @@ body {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-  border: 4px;
-  border-color: black;
-  border-style: solid;
-}
-
-.campaign-hero .firstImage p,
-.campaign-hero .secondImage p,
-.campaign-hero .thirdImage p {
-  text-align: center;
-  font-size: 25px;
-  color: white;
-  font-family: 'Pacifico';
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#ff0000), to(#000000));
-  background-image: linear-gradient(to bottom right, #ff0000, #000000);
-  border: 4px solid black;
   cursor: pointer;
 }
 
-.campaign-hero .firstImage p:hover,
-.campaign-hero .secondImage p:hover,
-.campaign-hero .thirdImage p:hover {
-  font-size: 30px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+.campaign-hero .firstImage img:hover,
+.campaign-hero .secondImage img:hover,
+.campaign-hero .thirdImage img:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 /*# sourceMappingURL=style.css.map */
