@@ -158,9 +158,29 @@ body {
 .campaign-hero .techontech-slideshow-content .mySlides {
   width: 70%;
   display: none;
+  cursor: pointer;
 }
 
 .campaign-hero .techontech-slideshow-content .mySlides:first-of-type {
   display: block;
+}
+
+.campaign-hero .techontech-slideshow-content button {
+  cursor: pointer;
+  z-index: 1000;
+  padding: 5px;
+  background-color: #d2d2d2;
+  color: black;
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  opacity: 0.5;
+}
+
+.campaign-hero .techontech-slideshow-content button:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
 }
 /*# sourceMappingURL=style.css.map */
