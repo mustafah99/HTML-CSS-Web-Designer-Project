@@ -229,7 +229,7 @@ body {
       align-content: center;
   max-width: 100%;
   border: 1px solid #d6c4c4;
-  padding: 15px;
+  padding: 0 25px;
 }
 
 .products-hero .firstImage img,
@@ -241,6 +241,7 @@ body {
   width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+  height: 200px;
   cursor: pointer;
 }
 
@@ -256,22 +257,33 @@ body {
   transition: 0.5s ease-in-out;
 }
 
-.products-hero .firstImage p,
-.products-hero .secondImage p,
-.products-hero .thirdImage p,
-.products-hero .fourthImage p,
-.products-hero .fifthImage p,
-.products-hero .sixthImage p {
+.products-hero .firstImage .productTitle,
+.products-hero .secondImage .productTitle,
+.products-hero .thirdImage .productTitle,
+.products-hero .fourthImage .productTitle,
+.products-hero .fifthImage .productTitle,
+.products-hero .sixthImage .productTitle {
   text-align: left;
   font-size: 15px;
   font-weight: bold;
   padding: 10px;
+  padding-left: 0;
   padding-bottom: 0;
   margin-bottom: 0;
   color: black;
   font-family: 'Roboto', sans-serif;
   background-color: #f2f2f2 !important;
   cursor: pointer;
+}
+
+.products-hero .firstImage .productTitle:hover,
+.products-hero .secondImage .productTitle:hover,
+.products-hero .thirdImage .productTitle:hover,
+.products-hero .fourthImage .productTitle:hover,
+.products-hero .fifthImage .productTitle:hover,
+.products-hero .sixthImage .productTitle:hover {
+  text-decoration: underline;
+  color: #0096db;
 }
 
 .products-hero .firstImage .additional-Information p,
@@ -311,5 +323,21 @@ body {
   color: black;
   font-family: 'Roboto', sans-serif;
   color: #a2a2a2;
+}
+
+.products-hero .firstImage .additional-Information .price,
+.products-hero .secondImage .additional-Information .price,
+.products-hero .thirdImage .additional-Information .price,
+.products-hero .fourthImage .additional-Information .price,
+.products-hero .fifthImage .additional-Information .price,
+.products-hero .sixthImage .additional-Information .price {
+  padding-left: 10px;
+  cursor: text;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  color: #ea2425;
 }
 /*# sourceMappingURL=style.css.map */
