@@ -66,9 +66,16 @@ body {
         .logo {
             h1 {
                 font-family: 'Roboto', sans-serif;
+                text-transform: lowercase;
+                color: #0096db;
 
                 span {
-                    color: red;
+                    color: white;
+                    text-transform: uppercase;
+                    background-color: red;
+                    padding: 10px;
+                    font-size: 0.8em;
+                    border-radius: 50%;
                 }
             }
         }
