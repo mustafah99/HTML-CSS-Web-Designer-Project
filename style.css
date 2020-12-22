@@ -355,4 +355,40 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #ea2425;
 }
+
+.holiday-hero {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+  padding: 20px 150px;
+}
+
+.holiday-hero .firstImage,
+.holiday-hero .secondImage {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 100%;
+}
+
+.holiday-hero .firstImage img,
+.holiday-hero .secondImage img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.holiday-hero .firstImage img:hover,
+.holiday-hero .secondImage img:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
 /*# sourceMappingURL=style.css.map */

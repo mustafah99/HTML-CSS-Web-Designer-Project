@@ -302,3 +302,29 @@ body {
 
     }
 }
+
+.holiday-hero {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1.5em;
+    padding: 20px 150px;
+
+    .firstImage,
+    .secondImage {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        max-width: 100%;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+            cursor: pointer;
+
+            &:hover {
+                transform: scale(1.01);
+                transition: 0.5s ease-in-out;
+            }
+        }
+    }
+}
