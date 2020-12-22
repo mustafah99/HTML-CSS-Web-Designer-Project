@@ -205,13 +205,28 @@ body {
   cursor: pointer;
 }
 
+.products-header {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+  padding: 0 150px;
+  font-family: 'Roboto', sans-serif;
+  border-top: 1px solid #d6c4c4;
+  margin: 0 auto;
+}
+
+.products-header h3 {
+  font-weight: normal;
+}
+
 .products-hero {
   display: -ms-grid;
   display: grid;
   grid-auto-flow: column;
   grid-gap: 1.5em;
   padding: 20px 150px;
-  border: 1px solid #d6c4c4;
+  border-bottom: 1px solid #d6c4c4;
 }
 
 .products-hero .firstImage,
