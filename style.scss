@@ -376,6 +376,15 @@ body {
         grid-auto-flow: column;
         grid-gap: 1.5em;
 
+        .nav-title {
+            padding-bottom: 5px;
+            a {
+                color: black;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        }
+        
         li {
             a {
                 text-decoration: none;

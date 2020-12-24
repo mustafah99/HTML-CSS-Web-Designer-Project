@@ -450,6 +450,20 @@ body {
   grid-gap: 1.5em;
 }
 
+.fifthHero .shoppingNavigationLinks .nav-title,
+.fifthHero .webPages .nav-title,
+.fifthHero .customerSupportNavigationLinks .nav-title {
+  padding-bottom: 5px;
+}
+
+.fifthHero .shoppingNavigationLinks .nav-title a,
+.fifthHero .webPages .nav-title a,
+.fifthHero .customerSupportNavigationLinks .nav-title a {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .fifthHero .shoppingNavigationLinks li a,
 .fifthHero .webPages li a,
 .fifthHero .customerSupportNavigationLinks li a {
