@@ -391,4 +391,122 @@ body {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
 }
+
+.fourthHero {
+  display: -ms-grid;
+  display: grid;
+  min-height: 30px;
+  grid-auto-flow: column;
+  background-color: #333;
+  grid-gap: 1.5em;
+  padding: 0 150px;
+}
+
+.fourthHero .shippingInformation,
+.fourthHero .moreShippingInformation,
+.fourthHero .safePay,
+.fourthHero .news {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 100%;
+}
+
+.fourthHero .shippingInformation p,
+.fourthHero .moreShippingInformation p,
+.fourthHero .safePay p,
+.fourthHero .news p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fifthHero {
+  display: -ms-grid;
+  display: grid;
+  min-height: 30px;
+  grid-auto-flow: column;
+  background-color: #d2d2d2;
+  grid-gap: 1.5em;
+  padding: 20px 150px;
+}
+
+.fifthHero .shoppingNavigationLinks,
+.fifthHero .webPages,
+.fifthHero .customerSupportNavigationLinks {
+  padding: 0 150px;
+  margin-top: 0;
+  list-style-type: none;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: left;
+  grid-auto-flow: column;
+  grid-gap: 1.5em;
+}
+
+.fifthHero .shoppingNavigationLinks li a,
+.fifthHero .webPages li a,
+.fifthHero .customerSupportNavigationLinks li a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  color: #666;
+  font-size: 13px;
+}
+
+.fifthHero .shoppingNavigationLinks li a:hover,
+.fifthHero .webPages li a:hover,
+.fifthHero .customerSupportNavigationLinks li a:hover {
+  text-decoration: underline;
+  color: #0096db;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  min-height: 30px;
+  grid-auto-flow: column;
+  background-color: #d2d2d2;
+  grid-gap: 1.5em;
+  padding: 0 150px;
+}
+
+.footer .copyrightInformationTrademark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer p {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.picturesForFooter {
+  display: -ms-grid;
+  display: grid;
+  margin: 0 auto;
+  min-height: 30px;
+  grid-auto-flow: column;
+  background-color: #d2d2d2;
+  grid-gap: 1.5em;
+  padding: 0 150px;
+}
+
+.picturesForFooter .footerPicture {
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */
